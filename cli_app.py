@@ -3,8 +3,6 @@ from trip_agents import TripAgents
 from trip_tasks import TripTasks
 from datetime import datetime, timedelta
 import argparse
-from langchain_openai import ChatOpenAI
-from langchain_groq import ChatGroq
 import os
 from dotenv import load_dotenv
 
